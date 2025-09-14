@@ -1,0 +1,13 @@
+this._s=this._s||{};(function(_){var window=this;
+try{
+_.jdd=_.w("Wn3aEc",[]);
+}catch(e){_._DumpException(e)}
+try{
+_.t("Wn3aEc");
+var ldd;ldd=function(a){if((0,_.y2c)(a))return a;if((0,_.yIc)(a)){let c,d;a=(c=a.Ca())==null?void 0:(d=c.ze())==null?void 0:d.getExtension(_.qD);if(!a)return null}let b;return a.getType()===1?(b=a.getImage())!=null?b:null:null};
+_.mdd=class extends _.th{static Sa(){return{Lf:{Knc:_.WD}}}constructor(a){super();this.oa=a.Lf.Knc;this.Aa=_.Ce();this.Ba=_.Ce();this.results=new Map;a:{if(this.getData("vnora").Lb()){a=_.am("WA6vPb",this.Ca());if(a.length===1){a=Number(_.ef(a[0],"count"));break a}a=_.am("LgL7He",this.Ca());if(a.length===1){a=Number(_.ef(a[0],"count"));break a}}a=_.ed(this.getData("count"),-1)}this.Da=a}Xba(){if(this.Da<0){const a=this.oa?_.p(this.oa,_.mD,2):null;return a?_.yf(a.Xw()):_.yf([])}return this.Aa.promise}Xw(){return this.Xba().then(a=>
+a.map(ldd).filter(b=>b!=null))}AEc(){return this.Ba.promise}bfe(){return this.AEc().then(a=>{const b=new Map;for(const [c,d]of a){a=c;const e=ldd(d);e&&b.set(a,e)}return b})}Yz(a,b){b&&_.kdd(b)&&this.results.set(a,b);if(--this.Da===0){this.Aa.resolve(Array.from(this.results.entries()).sort((c,d)=>_.$Fa(c[0],d[0])).map(c=>c[1]));a=new Map;for(const [c,d]of this.results.entries()){b=c;const e=d;e&&a.set(b,e)}this.Ba.resolve(a)}}};_.Ur(_.jdd,_.mdd);
+_.u();
+}catch(e){_._DumpException(e)}
+})(this._s);
+// Google Inc.
